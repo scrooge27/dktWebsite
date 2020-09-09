@@ -1,0 +1,7 @@
+ h5{
+ 	text-align:center;
+ }
+ div.form-row:hover {
+  border: 1px solid white;
+  border-radius: 150px;
+}

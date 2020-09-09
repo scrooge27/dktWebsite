@@ -1,0 +1,49 @@
+<div class="card text-center">
+  <div class="card-header">
+  Hai bisogno di informazioni o vuoi acquistare un gioco? 
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Riempi il form sottostante per farcelo sapere, sarai ricontattato il prima possibile</h5>
+    <p class="card-text">Nota: le spedizioni sono per ora limitate all'Italia</p>
+  </div>
+</div>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputName">Nome</label>
+      <input type="text" id="firstname" class="form-control" placeholder="Mario">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputSurname">Cognome</label>
+      <input type="text" id="lastname" class="form-control" placeholder="Rossi">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputAddress">Indirizzo</label>
+      <input type="text" id="address" class="form-control" placeholder="via Roma 12">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputCity">Città</label>
+      <input type="text" id="city" class="form-control" placeholder="Reggio Emilia">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail">Email</label>
+    <input type="text" id="email" class="form-control" placeholder="dktBoardGame@gmail.com">
+  </div>
+  <div class="form-group">
+    <label for="inputRequests">Richieste</label>
+    <input type="text" id="requests" class="form-control" placeholder="Collaborazioni/tempi di consegna/ecc.">
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input onclick="subscribe()" class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Iscriviti alla newsletter
+      </label>
+    </div>
+  </div>
+  <a onclick="submit()" type="submit" class="btn btn-primary" href="/submit">Invia</a>
+</form>
+<script src="./form.js"></script>

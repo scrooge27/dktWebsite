@@ -1,0 +1,22 @@
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.dropdown-item{
+	color:white;
+ 	background-color: black;
+ 	text-align: center;
+}
+.dropdown-menu{
+ 	background-color: black;
+}
+
